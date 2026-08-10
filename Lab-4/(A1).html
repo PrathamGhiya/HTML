@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <table align="center" cellspacing="1" cellpadding="10">
+        <form action="">
+            <th colspan="2" align="left">
+                <font size="5">Student Registration</font>
+            </th>
+            <tr>
+                <td align="center"><label for="name">Full Name : </label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Email : </label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Mobile No : </label></td>
+                <td><input type="tel" pattern="[0-9]{10}" required></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Address : </label></td>
+                <td><textarea name="" id="" rows="5" cols="20" required></textarea></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Nationality : </label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Date of Birth : </label></td>
+                <td align="center"><input type="date" required></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Gender : </label></td>
+                <td align="center">
+                    <input type="radio" name="gen" required>
+                    <label for="">Male</label>
+                    <input type="radio" name="gen">
+                    <label for="">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Highest Degree : </label></td>
+                <td align="center">
+                    <select name="" id="" required>
+                        <option value="" disabled selected>Select Degree</option>
+                        <option value="">Degree 1</option>
+                        <option value="">Degree 2</option>
+                        <option value="">Degree 3</option>
+                        <option value="">Degree 4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">CPI : </label>
+                <td><input type="number" required></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">University : </label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td align="center"><label for="">Passing Year : </label></td>
+                <td>
+                    <select name="" id="" required>
+                        <option value="" disabled selected>Select Your Passing Year</option>
+                        <option value="">2026</option>
+                        <option value="">2025</option>
+                        <option value="">2024</option>
+                        <option value="">2023</option>
+                        <option value="">2022</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="right"><input type="submit"></td>
+                <td><input type="reset" value="cancel"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
