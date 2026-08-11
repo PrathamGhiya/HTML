@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title></title>
+</head>
+
+<body>
+    <table align="center" cellspacing="1" cellpadding="10">
+        <form action="">
+            <th colspan="2">
+                <font size="5">COVID-19 Vaccine Registration Form</font>
+            </th>
+            <tr>
+                <td><label for="">First Name : </label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Last Name : </label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Aadhar Number : </label></td>
+                <td><input type="tel" pattern="[0-9]{12}" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Vaccine Name : </label></td>
+                <td>
+                    <select name="" id="" required>
+                        <option value="" disabled selected>Please select Vaccine Name</option>
+                        <option value="">Covaxin</option>
+                        <option value="">Moderna</option>
+                        <option value="">CoronaVac</option>
+                        <option value="">Novavax</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Vaccine Centre Name : </label></td>
+                <td>
+                    <select name="" id="" required>
+                        <option value="" selected disabled>Please Select Vaccine Centre Name</option>
+                        <option value="">Centre 1</option>
+                        <option value="">Centre 2</option>
+                        <option value="">Centre 3</option>
+                        <option value="">Centre 4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Date of Dose : </label></td>
+                <td><input type="date" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Dose Number : </label></td>
+                <td><input type="text" size="3" pattern="[12]" required></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="submit" value="CLICK HERE"></td>
+                <td><input type="reset" value="CANCEL"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
